@@ -1,2 +1,5 @@
-# linkun.github.io
-LinKun-GitHub博客
+# linkun.github.io....
+
+This is LinKun-GitHub 博客. 
+
+Welcome.
