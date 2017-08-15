@@ -78,7 +78,7 @@
 <link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="blog, fisrt," />
+  <meta name="keywords" content="Hexo, NexT" />
 
 
 
@@ -94,18 +94,17 @@
 
 
 
-<meta name="description" content="H1chapter oneThis is my first blog.">
-<meta name="keywords" content="blog, fisrt">
+<meta name="description" content="安装hexo1npm install -g hexo-cli linux上可能会出现错误, 实践过程中碰到文件夹权限的问题, 从hexo的issue中可以参考大家的workaround: 123root@xxxxxxxxxx:~# npm config set user 0root@xxxxxxxxxx:~# npm config set unsafe-perm trueroot@xxxxxxxx">
 <meta property="og:type" content="article">
-<meta property="og:title" content="firstBlog">
-<meta property="og:url" content="http://yoursite.com/2017/08/15/firstBlog/index.html">
+<meta property="og:title" content="如何构建利用github配合hexo构建一个网站">
+<meta property="og:url" content="http://yoursite.com/2017/08/15/initGithubBook/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="H1chapter oneThis is my first blog.">
+<meta property="og:description" content="安装hexo1npm install -g hexo-cli linux上可能会出现错误, 实践过程中碰到文件夹权限的问题, 从hexo的issue中可以参考大家的workaround: 123root@xxxxxxxxxx:~# npm config set user 0root@xxxxxxxxxx:~# npm config set unsafe-perm trueroot@xxxxxxxx">
 <meta property="og:locale" content="Chinese">
-<meta property="og:updated_time" content="2017-08-15T03:22:56.745Z">
+<meta property="og:updated_time" content="2017-08-15T06:07:58.864Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="firstBlog">
-<meta name="twitter:description" content="H1chapter oneThis is my first blog.">
+<meta name="twitter:title" content="如何构建利用github配合hexo构建一个网站">
+<meta name="twitter:description" content="安装hexo1npm install -g hexo-cli linux上可能会出现错误, 实践过程中碰到文件夹权限的问题, 从hexo的issue中可以参考大家的workaround: 123root@xxxxxxxxxx:~# npm config set user 0root@xxxxxxxxxx:~# npm config set unsafe-perm trueroot@xxxxxxxx">
 
 
 
@@ -134,13 +133,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2017/08/15/firstBlog/"/>
+  <link rel="canonical" href="http://yoursite.com/2017/08/15/initGithubBook/"/>
 
 
 
 
 
-  <title>firstBlog | Hexo</title>
+  <title>如何构建利用github配合hexo构建一个网站 | Hexo</title>
   
 
 
@@ -257,7 +256,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/08/15/firstBlog/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/08/15/initGithubBook/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="LinKun">
@@ -274,7 +273,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">firstBlog</h1>
+          <h1 class="post-title" itemprop="name headline">如何构建利用github配合hexo构建一个网站</h1>
         
 
         <div class="post-meta">
@@ -286,7 +285,7 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-08-15T11:22:04+08:00">
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-08-15T13:51:44+08:00">
                 2017-08-15
               </time>
             
@@ -324,7 +323,30 @@
       
 
       
-        <h1 id="H1"><a href="#H1" class="headerlink" title="H1"></a>H1</h1><h2 id="chapter-one"><a href="#chapter-one" class="headerlink" title="chapter one"></a>chapter one</h2><p>This is my first blog.</p>
+        <h1 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install -g hexo-cli</div></pre></td></tr></table></figure>
+<p>linux上可能会出现错误, 实践过程中碰到文件夹权限的问题, 从hexo的issue中可以参考大家的workaround:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">root@xxxxxxxxxx:~# npm config set user 0</div><div class="line">root@xxxxxxxxxx:~# npm config set unsafe-perm true</div><div class="line">root@xxxxxxxxxx:~# npm install -g hexo</div></pre></td></tr></table></figure>
+<p>更多的hexo使用技巧请参考:</p>
+<p><a href="https://hexo.io/zh-cn/docs/setup.html" target="_blank" rel="external">https://hexo.io/zh-cn/docs/setup.html</a> 建站指南</p>
+<h1 id="利用hexo建站"><a href="#利用hexo建站" class="headerlink" title="利用hexo建站"></a>利用hexo建站</h1><p>安装 Hexo 完成后，请执行下列命令，Hexo 将会在指定文件夹中新建所需要的文件。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ hexo init &lt;folder&gt;</div><div class="line">$ cd &lt;folder&gt;</div><div class="line">$ npm install</div></pre></td></tr></table></figure>
+<p>新建完成后，指定文件夹的目录如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">.</div><div class="line">├── _config.yml</div><div class="line">├── package.json</div><div class="line">├── scaffolds</div><div class="line">├── source</div><div class="line">|   ├── _drafts</div><div class="line">|   └── _posts</div><div class="line">└── themes</div></pre></td></tr></table></figure>
+<h3 id="config-yml"><a href="#config-yml" class="headerlink" title="_config.yml"></a>_config.yml</h3><p>网站的 配置 信息，您可以在此配置大部分的参数。</p>
+<h3 id="package-json"><a href="#package-json" class="headerlink" title="package.json"></a>package.json</h3><p>应用程序的信息。EJS, Stylus 和 Markdown renderer 已默认安装，您可以自由移除。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div></pre></td><td class="code"><pre><div class="line">package.json</div><div class="line"></div><div class="line">&#123;</div><div class="line">  &quot;name&quot;: &quot;hexo-site&quot;,</div><div class="line">  &quot;version&quot;: &quot;0.0.0&quot;,</div><div class="line">  &quot;private&quot;: true,</div><div class="line">  &quot;hexo&quot;: &#123;</div><div class="line">    &quot;version&quot;: &quot;&quot;</div><div class="line">  &#125;,</div><div class="line">  &quot;dependencies&quot;: &#123;</div><div class="line">    &quot;hexo&quot;: &quot;^3.0.0&quot;,</div><div class="line">    &quot;hexo-generator-archive&quot;: &quot;^0.1.0&quot;,</div><div class="line">    &quot;hexo-generator-category&quot;: &quot;^0.1.0&quot;,</div><div class="line">    &quot;hexo-generator-index&quot;: &quot;^0.1.0&quot;,</div><div class="line">    &quot;hexo-generator-tag&quot;: &quot;^0.1.0&quot;,</div><div class="line">    &quot;hexo-renderer-ejs&quot;: &quot;^0.1.0&quot;,</div><div class="line">    &quot;hexo-renderer-stylus&quot;: &quot;^0.2.0&quot;,</div><div class="line">    &quot;hexo-renderer-marked&quot;: &quot;^0.2.4&quot;,</div><div class="line">    &quot;hexo-server&quot;: &quot;^0.1.2&quot;</div><div class="line">  &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h3 id="scaffolds"><a href="#scaffolds" class="headerlink" title="scaffolds"></a>scaffolds</h3><p>模版 文件夹。当您新建文章时，Hexo 会根据 scaffold 来建立文件。</p>
+<p>Hexo的模板是指在新建的markdown文件中默认填充的内容。例如，如果您修改scaffold/post.md中的Front-matter内容，那么每次新建一篇文章时都会包含这个修改。</p>
+<h3 id="source"><a href="#source" class="headerlink" title="source"></a>source</h3><p>资源文件夹是存放用户资源的地方。除 <em>posts 文件夹之外，开头命名为 </em> (下划线)的文件 / 文件夹和隐藏的文件将会被忽略。Markdown 和 HTML 文件会被解析并放到 public 文件夹，而其他文件会被拷贝过去。</p>
+<h3 id="themes"><a href="#themes" class="headerlink" title="themes"></a>themes</h3><p>主题 文件夹。Hexo 会根据主题来生成静态页面。</p>
+<h1 id="发布到github"><a href="#发布到github" class="headerlink" title="发布到github"></a>发布到github</h1><p>整个hexo文件夹下有两个部分组成:</p>
+<ol>
+<li><p>hexo: 整个hexo的网站构建模块, 包括node_modules 以及 其他的配置文件都在该文件夹下.</p>
+</li>
+<li><p>public: 通过hexo新建的文件, 已经最终构造出来的样式被保存在这个文件夹下面.</p>
+</li>
+</ol>
+<p>正常来讲, 如果作为博客, 只需要将public下的所有内容push到github的linkun199011.github.io工程即可, 将该工程设置成gitbook, 就能够达到做成博客的目的.<br>但是, 为了让我整个hexo工程可以跨平台跨主机工作, 我还是将整个hexo工程push到了github 的 hexo 工程.<br>这样, 利用 <code>hexo new someFile</code> 则就会在 <code>source/_posts/</code> 文件夹下面创造出对应的文件, 文件修改完毕后, <code>hexo g</code>, 然后就在 <code>public</code>文件夹下面生产了相应的html.<br>这个时候需要在hexo根目录push一下, 然后再到public目录下push一下.</p>
 
       
     </div>
@@ -340,12 +362,6 @@
 
     <footer class="post-footer">
       
-        <div class="post-tags">
-          
-            <a href="/tags/blog-fisrt/" rel="tag"># blog, fisrt</a>
-          
-        </div>
-      
 
       
       
@@ -355,8 +371,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2017/08/15/hello-world/" rel="next" title="Hello World">
-                <i class="fa fa-chevron-left"></i> Hello World
+              <a href="/2017/08/15/firstBlog/" rel="next" title="firstBlog">
+                <i class="fa fa-chevron-left"></i> firstBlog
               </a>
             
           </div>
@@ -364,10 +380,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2017/08/15/initGithubBook/" rel="prev" title="如何构建利用github配合hexo构建一个网站">
-                如何构建利用github配合hexo构建一个网站 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -492,7 +504,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#H1"><span class="nav-number">1.</span> <span class="nav-text">H1</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#chapter-one"><span class="nav-number">1.1.</span> <span class="nav-text">chapter one</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#安装hexo"><span class="nav-number">1.</span> <span class="nav-text">安装hexo</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#利用hexo建站"><span class="nav-number">2.</span> <span class="nav-text">利用hexo建站</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#config-yml"><span class="nav-number">2.0.1.</span> <span class="nav-text">_config.yml</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#package-json"><span class="nav-number">2.0.2.</span> <span class="nav-text">package.json</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#scaffolds"><span class="nav-number">2.0.3.</span> <span class="nav-text">scaffolds</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#source"><span class="nav-number">2.0.4.</span> <span class="nav-text">source</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#themes"><span class="nav-number">2.0.5.</span> <span class="nav-text">themes</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#发布到github"><span class="nav-number">3.</span> <span class="nav-text">发布到github</span></a></li></ol></div>
             
 
           </div>
