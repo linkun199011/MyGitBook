@@ -1,5 +1,4 @@
-# H1
+# Lin's Blog
 
-## Chapter One 
+Tech is Beautiful.
 
-This is my first Blog.
